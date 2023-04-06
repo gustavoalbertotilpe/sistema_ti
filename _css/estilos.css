@@ -1,0 +1,227 @@
+.clear{
+    clear: both;
+}
+.alertAbsouto{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    margin-top:20%;
+    padding-top:50px; 
+    text-align: center;
+}
+
+.fotoPerfil{
+    position: absolute;
+    display: block;
+    left: 85%;
+    color:#fff;
+    height: 20px;
+    padding: 0;
+}
+.exit{
+    width: 5px;
+    margin: 0;
+    padding: 0;
+}
+.bodyDastboard{
+    display: block;
+    width: 100%;
+    background-color: #fff;
+}
+.green{
+    background-color:#0dba24;
+}
+.yellow{
+    background-color:#dbd40d;
+}
+.red{
+    background-color: #d60000;
+}
+.white{
+    background-color:#ffff;
+    padding:9px 9px;
+} 
+.chamados{
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 12px;
+    overflow-y: auto; 
+}
+.ativos{
+    display:  block;
+    width: 100%;
+}
+.menuAtivos{
+    display: block;
+    float: left;
+    background-color:#fff;
+    margin-bottom: 2%;
+    width: 100%;
+}
+.menuAtivos ul li{
+    float: left;
+    list-style-type: none;
+    padding: 12px 12px;  
+}
+
+.itensMenu li a:hover{
+    background-color:red;
+}
+.filtroAtivos{
+  display: block;
+  margin-left: 65%;
+  background-color:#fff;
+  padding: 12px 12px;
+}
+.mainAtivo{
+    display: block;
+    margin-top: 4%;
+    width: 100%;
+    background-color:#fff;
+}
+.detalhesModal{
+    width: 100%;  
+    color:#000;
+}
+.itensModal{
+    float: right;
+    width: 50%;
+    padding-left:15px;
+}
+.itensModalM{
+    float: left;
+    width: 100%;
+    padding-left:15px;
+}
+.itensModalM ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 12px;
+    border: solid 1px #000;  
+}
+.itensModal ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 12px;
+    border: solid 1px #000;  
+}
+.obsModal{
+    display: block;
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    border: solid 1px #000;    
+    margin-bottom: 12px;   
+    word-wrap: break-word;
+    text-align: justify;
+    padding: 12px 12px;
+}
+.obsCorpoModal{
+    height: 200px;
+    overflow-y: auto;
+    
+}
+.imgModal{
+    display: block;
+    float: left;
+    padding-top:12px;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 400px;
+}
+.imgModal img{
+    width: 100%;
+    height: 400px;
+}
+.paginacao{
+    position: relative;
+
+    width:100%;
+    padding-top: 5px;
+}
+.statusAtivo{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color:green;
+    border-radius: 50%;
+}
+.statusParado{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color:yellow;
+    border-radius: 50%;
+}
+
+.statusEstragado{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color:red;
+    border-radius: 50%;
+}
+.AtivosRelatorio{
+    position: absolute;
+    width: 100%;
+    margin-top:70px;
+}
+.colorModal{
+    color:#000;
+}
+.rodape{
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-color:#000;
+    color: #fff;
+}
+.infoRodape{
+    text-align: center;
+    padding-top:50px;
+}
+/*Erro 404 */
+.main404{
+    display: block;
+    width: 100%;
+}
+.mensagem404{
+    width:700px;
+    margin:0 auto;
+}
+.mensagem404 h1{
+    font-size: 80px;
+    color:red;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mainUser{
+    display: block;
+    width: 100%;
+    height: 700px;
+}
+.user{
+    display: block;
+    width: 50%;
+    padding: 12px 12px;
+    float: left;
+}
+.senha{
+    display: block;
+    width: 40%;
+    padding: 12px 12px;
+    float: left;
+}
+.lembretes{
+    height: 300px;
+    width: 90%;
+    overflow-y: auto;
+    border:1px solid #dbdbdb;
+}
+.lembrete-texto{
+     display: block;
+     word-wrap: break-word;
+     border-bottom: 1px solid #4287f5;
+}
